@@ -7,7 +7,7 @@ from main import modd
 
 class TestCalculator(unittest.TestCase):
   def test_sum(self):
-    self.assertEqual(sum(1,2), 3)
+    self.assertEqual(sum(1,2), 88)
   def test_sub(self):
     self.assertEqual(sub(4,5), 1)
   def test_mul(self):
