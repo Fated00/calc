@@ -8,7 +8,7 @@ from main import modd
 class TestCalculator(unittest.TestCase):
   def test_sum(self):
 <<<<<<< HEAD
-    self.assertEqual(sum(1,2), 3)
+    self.assertEqual(sum(1,2), 33)
 =======
     self.assertEqual(sum(1,2), 88)
 >>>>>>> master
