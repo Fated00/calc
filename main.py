@@ -7,6 +7,9 @@ def sub(x1, x2):
 def div(x1, x2):
     if x2 != 0:
       return x1/x2
+def modd(x1,x2):
+    if x2 != 0:
+        return x1%x2
 
 
 summa = 0
