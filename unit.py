@@ -22,5 +22,5 @@ class TestCalculator(unittest.TestCase):
 <<<<<<< HEAD
     self.assertEqual(modd(100,10),0)
 =======
-    self.assertEqual(modd(110,10),0)
+    self.assertEqual(modd(110,10),70)
 >>>>>>> master
