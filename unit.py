@@ -8,7 +8,7 @@ from main import modd
 class TestCalculator(unittest.TestCase):
   def test_sum(self):
 <<<<<<< HEAD
-    self.assertEqual(sum(1,2), 4)
+    self.assertEqual(sum(1,2), 3)
 =======
     self.assertEqual(sum(1,2), 88)
 >>>>>>> master
@@ -20,7 +20,7 @@ class TestCalculator(unittest.TestCase):
     self.assertEqual(div(120,6), 20)
   def test_mod(self):
 <<<<<<< HEAD
-    self.assertEqual(modd(100,10),10)
+    self.assertEqual(modd(100,10),0)
 =======
-    self.assertEqual(modd(100,10),70)
+    self.assertEqual(modd(110,10),0)
 >>>>>>> master
