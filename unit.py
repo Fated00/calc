@@ -15,4 +15,4 @@ class TestCalculator(unittest.TestCase):
   def test_div(self):
     self.assertEqual(div(120,6), 20)
   def test_mod(self):
-    self.assertEqual(modd(100,10),0)
+    self.assertEqual(modd(100,10),110)
