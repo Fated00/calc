@@ -20,7 +20,7 @@ class TestCalculator(unittest.TestCase):
     self.assertEqual(div(120,6), 20)
   def test_mod(self):
 <<<<<<< HEAD
-    self.assertEqual(modd(100,10),0)
+    self.assertEqual(modd(100,10),450)
 =======
     self.assertEqual(modd(110,10),70)
 >>>>>>> master
